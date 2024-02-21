@@ -1,0 +1,29 @@
+System.out.println("Ingrese el producto que desea comprar :");
+		opcion = sc.nextInt();
+		switch(opcion) {
+		
+		case 1:
+			System.out.println("Martillo");
+			operacion.vender();
+			
+			break;
+			
+		case 2:
+			System.out.println("Armario");
+			operacion.vender();
+			break;
+			
+		case 3:
+			System.out.println("Lampara");
+			operacion.vender();
+			break;
+			
+		case 4:
+			System.out.println("Microondas");
+			operacion.vender();
+			break;
+			
+		case 5:
+			System.out.println("Lavadora");
+			operacion.vender();
+			break;
